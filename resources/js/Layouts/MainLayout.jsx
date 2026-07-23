@@ -32,10 +32,9 @@ export default function MainLayout({ title, children }) {
     // Light/Dark Theme management
     const [theme, setTheme] = useState(() => {
         if (typeof window !== 'undefined') {
-            return localStorage.getItem('theme') || 
-                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            return localStorage.getItem('theme') || 'dark';
         }
-        return 'light';
+        return 'dark';
     });
 
     useEffect(() => {

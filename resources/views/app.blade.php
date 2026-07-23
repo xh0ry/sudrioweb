@@ -14,6 +14,15 @@
         <!-- Favicon -->
         <link rel="icon" href="/favicon.png" type="image/png">
 
+        <!-- Inline theme script to prevent FOUC -->
+        <script>
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage))) {
+                document.documentElement.classList.add('dark');
+            } else if (localStorage.theme === 'light') {
+                document.documentElement.classList.remove('dark');
+            }
+        </script>
+
         <!-- Scripts -->
         @routes
         @viteReactRefresh

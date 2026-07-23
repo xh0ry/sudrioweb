@@ -13,8 +13,7 @@ export default function AdminLayout({ title, children }) {
         
         return () => {
             // Restore user's preferred theme when leaving admin
-            const userTheme = localStorage.getItem('theme') || 
-                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            const userTheme = localStorage.getItem('theme') || 'dark';
             if (userTheme === 'light') {
                 root.classList.remove('dark');
             } else {
