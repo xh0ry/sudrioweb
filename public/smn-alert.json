@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "type": "tormenta",
+  "severity": "amarilla",
+  "zone": "Zona Este - Rivadavia",
+  "message": "Alerta Amarilla por Tormentas Fuertes: Siga nuestras recomendaciones de seguridad.",
+  "recommendations": [
+    "Desconectá electrodomésticos y dispositivos electrónicos de la red eléctrica para evitar daños por sobretensiones.",
+    "Evitá el contacto con artefactos eléctricos conectados y no utilices teléfonos con cable durante la tormenta.",
+    "Asegurá y retirá objetos sueltos de balcones, patios o techos que puedan ser arrastrados por el viento.",
+    "No intentes tocar cables caídos ni postes de iluminación en la vía pública bajo ninguna circunstancia.",
+    "Mantené limpias las canaletas y desagües de tu hogar para facilitar el escurrimiento rápido del agua.",
+    "En caso de inundación o filtraciones graves en el techo, desconectá la llave general de electricidad de tu vivienda."
+  ]
+}
